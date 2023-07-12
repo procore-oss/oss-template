@@ -1,2 +1,3 @@
-# oss-template
-Repository template for new open source repositories in this organization
+# OSS Template Repository
+
+OSS Template Repository for the github.com/procore-oss organization.
