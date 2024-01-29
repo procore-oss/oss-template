@@ -8,6 +8,6 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/labeler@17086b774338d2689ada0d8fcc8c51b5c9bc782a # (latest, untagged)
+      - uses: actions/labeler@b2b2c20d4426b3c8035c21473ead775a153cf866 # (latest, untagged)
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
