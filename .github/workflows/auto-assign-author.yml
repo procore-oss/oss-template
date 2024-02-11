@@ -2,6 +2,10 @@ name: 'Auto Author Assign'
 on:
   pull_request:
     types: [opened, reopened, synchronize]
+
+permissions:
+  pull-requests: write
+
 jobs:
   assign:
     runs-on: ubuntu-latest
